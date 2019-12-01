@@ -1,0 +1,635 @@
+
+ table{  border-collapse:collapse; } 
+	  .Header0_0 
+{ font-family: Segoe UI ;
+font-size: 16pt ;
+color: rgb(0,0,0) ;
+font-weight: bold; 
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:center; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header0_1 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header0_2 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header0_3 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header0_4 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header0_5 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header0_6 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header1_0 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:right; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header1_1 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header1_2 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header1_3 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header1_4 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header1_5 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header1_6 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Header2_0 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header2_1 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header2_2 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header2_3 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header2_4 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header2_5 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Header2_6 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Group_Header10_0 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: bold; 
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Group_Header10_1 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Group_Header10_2 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Group_Header10_3 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Group_Header10_4 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Group_Header10_5 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Group_Header10_6 
+{border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+ } 
+ .Detail0_0 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(0,204,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left:1px; 
+border-left-style:solid; 
+border-left-color: 0 ;
+border-right:1px; 
+border-right-style:solid; 
+border-right-color: 0 ;
+border-top:1px; 
+border-top-style:solid; 
+border-top-color: 0 ;
+border-bottom:1px; 
+border-bottom-style:solid; 
+border-bottom-color: 0 ;
+white-space: nowrap; 
+ } 
+ .Detail0_1 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(0,204,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left:1px; 
+border-left-style:solid; 
+border-left-color: 0 ;
+border-right:1px; 
+border-right-style:solid; 
+border-right-color: 0 ;
+border-top:1px; 
+border-top-style:solid; 
+border-top-color: 0 ;
+border-bottom:1px; 
+border-bottom-style:solid; 
+border-bottom-color: 0 ;
+white-space: nowrap; 
+ } 
+ .Detail0_2 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(0,204,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left:1px; 
+border-left-style:solid; 
+border-left-color: 0 ;
+border-right:1px; 
+border-right-style:solid; 
+border-right-color: 0 ;
+border-top:1px; 
+border-top-style:solid; 
+border-top-color: 0 ;
+border-bottom:1px; 
+border-bottom-style:solid; 
+border-bottom-color: 0 ;
+white-space: nowrap; 
+ } 
+ .Detail0_3 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(0,204,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left:1px; 
+border-left-style:solid; 
+border-left-color: 0 ;
+border-right:1px; 
+border-right-style:solid; 
+border-right-color: 0 ;
+border-top:1px; 
+border-top-style:solid; 
+border-top-color: 0 ;
+border-bottom:1px; 
+border-bottom-style:solid; 
+border-bottom-color: 0 ;
+white-space: nowrap; 
+ } 
+ .Detail0_4 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(0,204,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left:1px; 
+border-left-style:solid; 
+border-left-color: 0 ;
+border-right:1px; 
+border-right-style:solid; 
+border-right-color: 0 ;
+border-top:1px; 
+border-top-style:solid; 
+border-top-color: 0 ;
+border-bottom:1px; 
+border-bottom-style:solid; 
+border-bottom-color: 0 ;
+white-space: nowrap; 
+ } 
+ .Detail0_5 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(0,204,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left:1px; 
+border-left-style:solid; 
+border-left-color: 0 ;
+border-right:1px; 
+border-right-style:solid; 
+border-right-color: 0 ;
+border-top:1px; 
+border-top-style:solid; 
+border-top-color: 0 ;
+border-bottom:1px; 
+border-bottom-style:solid; 
+border-bottom-color: 0 ;
+white-space: nowrap; 
+ } 
+ .Detail0_6 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(0,204,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:1.0pt; 
+padding-right:1.0pt; 
+padding-top:1.0pt; 
+padding-bottom:1.0px; 
+border-left:1px; 
+border-left-style:solid; 
+border-left-color: 0 ;
+border-right:1px; 
+border-right-style:solid; 
+border-right-color: 0 ;
+border-top:1px; 
+border-top-style:solid; 
+border-top-color: 0 ;
+border-bottom:1px; 
+border-bottom-style:solid; 
+border-bottom-color: 0 ;
+white-space: nowrap; 
+ } 
+ .Footer0_0 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Footer0_1 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Footer0_2 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Footer0_3 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Footer0_4 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Footer0_5 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 
+ .Footer0_6 
+{ font-family: Segoe UI ;
+font-size: 12pt ;
+color: rgb(0,0,0) ;
+font-weight: normal ;
+font-style: normal;  
+background-color: rgb(255,255,255) ;
+text-align:left; 
+vertical-align:middle; 
+padding-left:0.0pt; 
+padding-right:0.0pt; 
+padding-top:0.0pt; 
+padding-bottom:0.0px; 
+border-left: none; 
+border-right: none; 
+border-top: none; 
+border-bottom: none; 
+white-space: nowrap; 
+ } 

@@ -1,0 +1,36 @@
+<?php
+        $pdo = Database::connect();
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $sql = "SELECT * FROM vtictan_cust_comp_disk where id=?";
+        $q = $pdo->prepare($sql);
+        $q->execute(array($id));
+        $data = $q->fetch(PDO::FETCH_ASSOC);		
+		$entities_id = $data['entities_id'];
+		$customers_id = $data['customers_id'];
+	    $computers_id = $data['computers_id'];			
+// echo "customers_id=$customers_id <br> ";
+		$kname = $data['name'];
+		$pcname = $data['pcname'];		
+//		echo "pcname=$pcname <br>";
+		$serial = $data['serial'];
+        $suppplier = $data['supplier'];
+		$customer_name = $data['customer_name'];
+		$companyname = $data['companyname'];
+		$_SESSION["companyname"] = $data['companyname'];
+		$_SESSION["customer_name"] = $data['customer_name'];
+		$_SESSION["entities_id"] = $data['entities_id'];
+		$_SESSION["customers_id"] = $data['customers_id'];		
+		$diskmodels_id = $data['diskmodels_id'];
+		$disktypes_id = $data['disktypes_id'];
+		$namemodel= $data['namemodel'];
+		$nametype= $data['nametype'];
+		$partition1=$data['partition1'];
+		$partition2=$data['partition2'];	
+		$partition3=$data['partition3'];	
+        $supplier = $data['supplier'];		
+		$comment=$data['comment'];
+     	$author=$data['author'];
+		$date_mod=$data['date_mod'];
+		$is_deleted=$data['is_deleted'];
+        Database::disconnect();	
+?>

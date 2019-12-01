@@ -1,0 +1,45 @@
+<?php
+        $pdo = Database::connect();
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $sql = "SELECT * FROM vtictan_customers_network where id_network=?";
+        $q = $pdo->prepare($sql);
+        $q->execute(array($id));
+        $data = $q->fetch(PDO::FETCH_ASSOC);		
+		$entities_id = $data['entities_id'];
+		$customers_id = $data['customers_id'];
+// echo "customers_id=$customers_id <br> ";
+		$namenetwork = $data['namenetwork'];
+//		echo "pcname=$pcname <br>";
+		$serial = $data['serial'];
+		$customer_name = $data['customer_name'];
+		$companynament = $data['companynament'];
+		$_SESSION["companynament"] = $data['companynament'];
+		$_SESSION["customer_name"] = $data['customer_name'];
+		$_SESSION["entities_id"] = $data['entities_id'];
+		$name = $data['namenetwork'];
+		
+		$networkmodels_id = $data['networkmodels_id'];
+		$networktypes_id = $data['networktypes_id'];
+		$namemodel= $data['namemodel'];
+		$nametype= $data['nametype'];
+		$adresseip=$data['adresseip'];
+		$bridge = $data['bridge'];
+		$mask = $data['mask'];
+		$smtpserver= $data['smtpserver'];
+		$login = $data['login'];
+		$password = $data['password'];
+		$adressrange = $data['adressrange'];
+//		$customer_id = $data['customers_id'];
+//		$entities_id = $data['entities_id'];
+//echo "entities=$entities_id <br>";
+		$location = $data['location'];	
+		$typeadressage=$data['typeadressage'];
+		$connexionvia=$data['connexionvia'];
+		$location=$data['location'];
+		$comment=$data['comment'];
+		$users_id=$data['users_id'];
+		$author=$data['author'];
+		$date_mod=$data['date_mod'];
+		$is_deleted=$data['is_deleted'];
+        Database::disconnect();	
+?>

@@ -1,0 +1,50 @@
+ <?php      
+ 	   $pdo = Database::connect();
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $sql = "SELECT * FROM vtictan_customers_computers where idcust=?";
+        $q = $pdo->prepare($sql);
+        $q->execute(array($id));
+        $data = $q->fetch(PDO::FETCH_ASSOC);		
+		$entities_id = $data['entities_idcust'];
+		$customers_id = $data['customers_idcust'];
+		$_SESSION["companynament"] = $data['companynament'];
+		$_SESSION["customer_name"] = $data['customer_name'];
+		$_SESSION["entities_id"] = $data['entities_id'];
+		$_SESSION["customer_id"] = $data['customers_id'];	
+// echo "customers_id=$customers_id <br> ";
+
+		$pcname = $data['pcnamecust'];
+//		echo "pcname=$pcname <br>";
+		$serial = $data['serialcust'];
+		$customer_name = $data['customer_name'];
+		$companynament = $data['companynament'];		
+		$processor = $data['processorcust'];
+		$ram = $data['ramcust'];
+		$hdd = $data['hddcust'];
+		$cartegraph = $data['cartegraphcust'];
+		$computermodels_id = $data['computermodels_idcust'];
+		$computertypes_id = $data['computertypes_idcust'];
+		$namemodel= $data['modelnamecust'];
+		$nametype= $data['typenamecust'];
+        $osname=$data['osname'];
+		$osvpname=$data['osvpname'];
+        $os_id=$data['os_idcust'];
+		$osvp_id=$data['osvp_idcust'];		
+		$domainame=$data['domainamecust'];
+		$sessioname=$data['sessionamecust'];
+		$spassword=$data['spasswordcust'];
+		$teamv_logname=$data['tlognamecust'];
+		$adresseip=$data['adresseipcust'];
+		$typeadressage=$data['typeadressagecust'];
+		$connexionvia=$data['connexionviacust'];
+		$location=$data['locationcust'];
+		$comment=$data['commentcust'];
+		$users_id=$data['users_id'];
+		$groups_id=$data['groups_id'];
+		$author=$data['authorcust'];
+		$mod_date=$data['mod_datecust'];
+		$is_deleted=$data['isdeletedcust'];
+        //echo "serial=$serial <br> ";
+        Database::disconnect();	
+
+?>
